@@ -1,5 +1,5 @@
 // ===============================================
-// 🎯 SECTION À MODIFIER PAR LES ÉLÈVES
+// 🎯 SECTION À MODIFIER 
 // ===============================================
 // Ajoutez vos questions ici en suivant les exemples !
 
@@ -52,7 +52,7 @@ const questions = [
     {
         question: "À quoi correspond cette structure de dossiers ?",
         image: {
-            src: "https://via.placeholder.com/400x200/4facfe/ffffff?text=Structure+HTML+Project",
+            src: "images/screenshots/project_screenshot.png",
             alt: "Structure de dossiers d'un projet web",
             size: "medium"
         },
@@ -65,8 +65,20 @@ const questions = [
         answer: 1,
         author: "Prof Exemple"
     },
+    {
+    question: "Quelle icône représente Git ?",
+    options: [
+        { text: "Option A", image: "images/logos/vercel.png"},
+        { text: "Option B", image: "images/logos/github-logo.png" },
+        { text: "Option C", image: null }, // Pas d'image
+        { text: "Option D", image: "images/logos/Git-Iogo.png" }
+    ],
+    answer: 3,
+    author: "Prof Exemple"
+},
 
-    // Exemple 5 - Question Git
+
+    // Exemple 5 - 
     {
         question: "Quelle commande Git permet de sauvegarder les modifications ?",
         options: [
