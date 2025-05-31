@@ -121,7 +121,7 @@ const questions = [
             "font-center"
         ],
         answer: 0,
-        author: "Prof CSS"
+        author: "SOUHAIL"
     },
     {
         question: "À quoi sert la plateforme GitHub ?",
@@ -132,7 +132,7 @@ const questions = [
             "À apprendre le HTML uniquement"
         ],
         answer: 1,
-        author: "Prof Git"
+        author: "SOUHAIL"
     },
     {
         question: "Quelle commande Git permet d’envoyer vos modifications sur un dépôt distant (par exemple sur GitHub) ?",
@@ -143,7 +143,7 @@ const questions = [
             "git status"
         ],
         answer: 2,
-        author: "Prof Git"
+        author: "SOUHAIL"
     }
 
     // 👆 AJOUTEZ VOS NOUVELLES QUESTIONS ICI 👆
