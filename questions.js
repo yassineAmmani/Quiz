@@ -102,7 +102,12 @@ const questions = [
         author: "SOUHAIL"
     },
     {
-        question: "Que va afficher ce code JavaScript ?\n\nlet x = 5;\nlet y = '5';\nconsole.log(x == y);",
+        question: "Que va afficher ce code JavaScript ?",
+        image: {
+            src: "images/screenshots/q1_javascript.png",
+            alt: "Capture d'écran du code JavaScript",
+            size: "small"
+        },
         options: [
             "true",
             "false",
@@ -146,7 +151,12 @@ const questions = [
         author: "SOUHAIL"
     },
     {
-        question: "En JavaScript, que va afficher ce code ?\n\nconsole.log(typeof null);",
+        question: "En JavaScript, que va afficher ce code ?",
+        image: {
+            src: "images/code.png", 
+            alt: "Capture d'écran du code : console.log(typeof null);",
+            size: "small"
+        },
         options: [
             "'null'",
             "'object'",
@@ -155,7 +165,8 @@ const questions = [
         ],
         answer: 1,
         author: "SOUHAIL"
-    }
+    },
+    
 
     // 👆 AJOUTEZ VOS NOUVELLES QUESTIONS ICI 👆
     // 
