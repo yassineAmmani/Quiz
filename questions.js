@@ -6,15 +6,15 @@
 const questions = [
     // Exemple 1 - Question simple
     {
-        question: "Que signifie HTML ?",
+        question: "a quoi sert HTML ?",
         options: [
-            "Hyper Text Markup Language", 
-            "High Tech Modern Language", 
-            "Home Tool Management Language", 
-            "Hyperlink and Text Markup Language"
+            " HTML sert à structurer le contenu d une page web", 
+            "HTML sert a styliser une page web", 
+            "HTML sert a supprimer une page web", 
+            "HTML sert a ajouter une page web"
         ],
         answer: 0,
-        author: "Prof Exemple"
+        author: "omar"
     },
 
     // Exemple 2 - Question avec image dans la question
@@ -34,7 +34,20 @@ const questions = [
         answer: 1,
         author: "Prof Exemple"
     },
+    {   question: "quel est le logo de HTML?",
+        options:[
+            { text: " ", image: "images/logos/html_logo.png"},
+            { text: " ", image: "images/logos/github-logo.png" },
+            { text: " ", image: "images/logos/css.png"},
+            { text: "  ", image: "images/logos/Git-Iogo.png" }
 
+        ],
+        awnser: 0,
+        author: "Omar"
+
+
+
+    },
     // Exemple 3 - Question avec images dans les options
     {
         question: "Quelle propriété CSS permet de changer la couleur du texte ?",
@@ -70,7 +83,7 @@ const questions = [
     options: [
         { text: "Option A", image: "images/logos/vercel.png"},
         { text: "Option B", image: "images/logos/github-logo.png" },
-        { text: "Option C", image: null }, // Pas d'image
+        { text: "Option C", image: "images/logos/css.png"},
         { text: "Option D", image: "images/logos/Git-Iogo.png" }
     ],
     answer: 3,
@@ -90,6 +103,10 @@ const questions = [
         answer: 1,
         author: "Prof Exemple"
     }
+    // ------------------------- Omar -------------------------
+
+
+
 
     // 👆 AJOUTEZ VOS NOUVELLES QUESTIONS ICI 👆
     // 
