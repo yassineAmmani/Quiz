@@ -89,6 +89,61 @@ const questions = [
         ],
         answer: 1,
         author: "Prof Exemple"
+    },
+    {
+        question: "Dans quel cas la balise <img> en HTML affiche-t-elle le texte de l’attribut 'alt' à la place de l’image ?",
+        options: [
+            "Quand l’image se charge correctement",
+            "Quand l’attribut 'alt' est vide",
+            "Quand l’image ne peut pas être affichée",
+            "Quand la balise <img> est placée dans le <head>"
+        ],
+        answer: 2,
+        author: "SOUHAIL"
+    },
+    {
+        question: "Que va afficher ce code JavaScript ?\n\nlet x = 5;\nlet y = '5';\nconsole.log(x == y);",
+        options: [
+            "true",
+            "false",
+            "undefined",
+            "Erreur"
+        ],
+        answer: 0,
+        author: "SOUHAIL"
+    },
+    {
+        question: "Quelle propriété CSS permet de centrer un texte à l’intérieur d’un élément ?",
+        options: [
+            "text-align",
+            "center-text",
+            "align-text",
+            "font-center"
+        ],
+        answer: 0,
+        author: "Prof CSS"
+    },
+    {
+        question: "À quoi sert la plateforme GitHub ?",
+        options: [
+            "À héberger des sites web uniquement",
+            "À partager et collaborer sur du code avec Git",
+            "À créer des images et des vidéos",
+            "À apprendre le HTML uniquement"
+        ],
+        answer: 1,
+        author: "Prof Git"
+    },
+    {
+        question: "Quelle commande Git permet d’envoyer vos modifications sur un dépôt distant (par exemple sur GitHub) ?",
+        options: [
+            "git clone",
+            "git pull",
+            "git push",
+            "git status"
+        ],
+        answer: 2,
+        author: "Prof Git"
     }
 
     // 👆 AJOUTEZ VOS NOUVELLES QUESTIONS ICI 👆
