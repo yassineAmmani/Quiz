@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Programmation - Fin d'année</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Quiz de Programmation</h1>
+            <p>Fin d'année - Testez vos connaissances !</p>
+            <div class="timer" id="timer">⏱️ 10:00</div>
+        </div>
+        
+        <div class="quiz-content">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress"></div>
+            </div>
+            
+            <div id="quiz-container"></div>
+            
+            <div class="submit-section">
+                <button class="submit-btn" id="submit-btn">✅ Valider le Quiz</button>
+            </div>
+            
+            <div class="result hidden" id="result"></div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
