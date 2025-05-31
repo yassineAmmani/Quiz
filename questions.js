@@ -144,6 +144,17 @@ const questions = [
         ],
         answer: 2,
         author: "SOUHAIL"
+    },
+    {
+        question: "En JavaScript, que va afficher ce code ?\n\nconsole.log(typeof null);",
+        options: [
+            "'null'",
+            "'object'",
+            "'undefined'",
+            "'number'"
+        ],
+        answer: 1,
+        author: "SOUHAIL"
     }
 
     // 👆 AJOUTEZ VOS NOUVELLES QUESTIONS ICI 👆
