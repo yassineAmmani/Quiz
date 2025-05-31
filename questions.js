@@ -184,7 +184,47 @@ const questions = [
         answer: 1,
         author: "SOUHAIL"
     },
-    
+    // --------------- Amine --------------
+    {
+        question: "a quoi sert CSS ?",
+        options: [
+            "  CSS sert à envoyer des sit web", 
+            " CSS sert a styliser une page web", 
+            " CSS sert a supprimer une page web",
+            " CSS sert à rendre des des page web onligne ",
+            ],
+        answer: 0,
+        author: "Amine"
+    },
+         {
+    question: "Quelle icône représente Python ?",
+    options: [
+        { text: "Option A", image: "images/logos/vercel.png"},
+        { text: "Option B", image: "images/logos/github-logo.png" },
+        { text: "Option C", image: "images/logos/css.png"},
+        { text: "Option D", image: "images/logos/py-logo.png"}
+    ],
+    answer: 3,
+    author: "Amine"
+},
+        {
+        question: "Quel est le nom de ce language de progrmmation ?",
+        image: {
+            src:"images/logos/js-logo.png",
+            alt: "Logo d'un language de programmation",
+            size: "logo" // Options: "small", "medium", "logo"
+        },
+        options: [
+            "Edge",
+            "Javascript", 
+            "Github",
+            "Python"
+        ],
+        answer: 1,
+        author: "Prof Exemple"
+    },
+
+
 
     // 👆 AJOUTEZ VOS NOUVELLES QUESTIONS ICI 👆
     // 
