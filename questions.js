@@ -42,7 +42,7 @@ const questions = [
             { text: "  ", image: "images/logos/Git-Iogo.png" }
 
         ],
-        awnser: 0,
+        answer: 0,
         author: "Omar"
 
 
@@ -102,12 +102,12 @@ const questions = [
         ],
         answer: 1,
         author: "Prof Exemple"
-    }
+    },
     // ------------------------- Omar -------------------------
 
 
 
-    },
+    
     {
         question: "Dans quel cas la balise <img> en HTML affiche-t-elle le texte de l’attribut 'alt' à la place de l’image ?",
         options: [
