@@ -224,7 +224,62 @@ const questions = [
         author: "Prof Exemple"
     },
 
+    {
+        question: "Qu'est-ce que le déploiement ?",
+        options: [
+            "Écrire du code",
+            "Installer un logiciel", 
+            "Créer un site web",
+            "Rendre une application disponible en ligne"
+        ],
+        answer: 4,
+        author: "zakaria"
+    },
 
+    {
+        question: "Quel est le nom de ce language de progrmmation ?",
+        image: {
+            src: "images/logos/html_logo.png",
+            alt: "Capture d'écran du code html",
+            size: "small"
+        },
+        options: [
+             "html",
+            "java scripte",
+            "css",
+            "c++"
+        ],
+        answer: 1,
+        author: "zakaria"
+    },
+
+    { question: "Quelle icône représente vercel ?",
+    options: [
+        { text: "Option A", image: "images/logos/vercel.png"},
+        { text: "Option B", image: "images/logos/github-logo.png" },
+        { text: "Option C", image: "images/logos/css.png"},
+        { text: "Option D", image: "images/logos/Git-Iogo.png" }
+    ],
+    answer: 1,
+    author: "zakaria"
+    },
+
+    {
+        question: "Que fait le code suivant ?",
+        image: {
+            src: "images/screenshots/Capture d’écran 2025-07-05 153225.png", 
+            alt: "Capture d'écran du code : console.log(typeof null);",
+            size: "meduim"
+        },
+        options: [
+           "Affiche 'Bonjour'  dans la console",
+            "Change le texte du bouton",
+            "Ouvre une boîte d’alerte avec 'Bonjour'",
+            " Ne fait rien"
+        ],
+        answer: 1,
+        author: "zakaria"
+    },
 
     // 👆 AJOUTEZ VOS NOUVELLES QUESTIONS ICI 👆
     // 
